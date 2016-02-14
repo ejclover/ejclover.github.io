@@ -1,0 +1,48 @@
+body{
+  
+background-color:#990000  
+}
+
+.head{
+  
+  text-align:center;
+  color:#cc8400
+}
+
+@keyframes button{
+  from{background:#cc6600;}
+  to{background:orange;}
+  
+  
+}
+
+
+button{
+  background:#cc6600;
+  color:white
+  
+}
+
+button:hover{
+    animation-name: button;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+ 
+  color:white
+}
+
+@keyframes background {
+    from {background-color:#990000;}
+    to {background-color: orange}
+}
+
+/* The element to apply the animation to */
+body {
+   
+    background-color: #990000;
+    animation-name: background;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
