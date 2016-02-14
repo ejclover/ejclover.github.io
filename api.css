@@ -46,3 +46,14 @@ body {
     animation-iteration-count:infinite;
     animation-direction: alternate;
 }
+
+.search{
+  
+  
+}
+
+
+.search:hover {
+  
+  color:white;
+}
