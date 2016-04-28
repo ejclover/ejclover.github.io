@@ -84,7 +84,7 @@ $(document).ready(function(){
      $(".search0").click(this, function(){
        
      
-       
+        $("#map-canvas").css("opacity", 1)
       
        
        var map;
@@ -117,7 +117,7 @@ $(document).ready(function() {
       
        $(".search1").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -153,7 +153,7 @@ $(document).ready(function() {
        
      
        
-      
+       $("#map-canvas").css("opacity", 1)
        
        var map;
 // Creates the map
@@ -186,7 +186,7 @@ $(document).ready(function() {
    $(".search3").click(this, function(){
        
      
-       
+        $("#map-canvas").css("opacity", 1)
       
        
        var map;
@@ -219,7 +219,7 @@ $(document).ready(function() {
           
    $(".search4").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -253,7 +253,7 @@ $(document).ready(function() {
           
    $(".search5").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -288,7 +288,7 @@ $(document).ready(function() {
    $(".search6").click(this, function(){
        
      
-       
+        $("#map-canvas").css("opacity", 1)
       
        
        var map;
@@ -321,7 +321,7 @@ $(document).ready(function() {
           
    $(".search7").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -355,7 +355,7 @@ $(document).ready(function() {
           
    $(".search8").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -389,7 +389,7 @@ $(document).ready(function() {
           
    $(".search9").click(this, function(){
        
-     
+      $("#map-canvas").css("opacity", 1)
        
       
        
@@ -436,6 +436,8 @@ $(document).ready(function() {
   $("#clear").click(function(){
     
     $("#print").empty();
+     $("#map-canvas").css("opacity", 0)
+     
     
     
   });
