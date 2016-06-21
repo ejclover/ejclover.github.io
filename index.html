@@ -19,12 +19,24 @@
 <body>
     <h1 class = "head">Venue Finder</h1>
   <h2 class  ="head">Powered by Foursquare and Google Maps</h2>
-  <input placeholder = "Type address here" id ="ip"> </input>
+  
+  <input placeholder = "Type your address" id ="ip"> </input>
   
   <input placeholder = "Type search here" id ="q"> </input>
 
   <button id = "submit">Search</button>
   <button id = "clear">Clear</button>
+  
+  <div>
+<strong>Mode of Travel: </strong>
+<select id="mode" onchange="calcRoute()">
+  <option value="DRIVING">Driving</option>
+  <option value="WALKING">Walking</option>
+  <option value="BICYCLING">Bicycling</option>
+  <option value="TRANSIT">Transit</option>
+</select>
+</div>
+
   
   
   <ul id = "print">
